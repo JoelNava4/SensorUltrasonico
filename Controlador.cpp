@@ -14,7 +14,7 @@ void Controlador::inicializarComponentes() {
 }
 
 void Controlador::controlarLEDsSegunDistancia() {
-    float umbralDistancias[] = {100, 80, 60, 40, 20};
+    float umbralDistancias[] = {50, 40, 30, 20, 10};
     float distancia = sensor->medirDistancia();
 
     unsigned int numeroUmbralDistancias = sizeof(umbralDistancias) / sizeof(umbralDistancias[0]);
